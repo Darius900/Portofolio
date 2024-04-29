@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 .about-section {
   position: relative; 
@@ -8,9 +9,9 @@
   justify-content: center;
   min-height: 94vh;
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(73,72,72,1) 93%); 
-  
   color: #ffffff; 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
   padding: 2em 1em;
   
 }

@@ -48,9 +48,11 @@ class Contact extends React.Component {
               <p>+40726.609.452</p>
             </div>
             <div className="info-box">
-              <FaGithub />
-              <p>Github</p>
+            <FaGithub />
+            <a href="https://github.com/Darius939" target="_blank" rel="noreferrer">
               
+              <p>Github</p>
+              </a>
             </div>
             <div className="info-box">
               <FaLinkedin />
