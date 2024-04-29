@@ -1,0 +1,147 @@
+
+.about-section {
+  position: relative; 
+  z-index: 2; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 94vh;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(73,72,72,1) 93%); 
+  
+  color: #ffffff; 
+  font-family: 'Roboto', sans-serif;
+  padding: 2em 1em;
+  
+}
+
+.about-content {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.about-image {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  
+}
+
+.about-image img {
+  position: relative;
+  max-width: 70%;
+  border-radius: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.about-image img.image-shadow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  filter: brightness(0);
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+}
+
+.about-text {
+  flex: 1;
+  padding-left: 30px;
+}
+
+.about-name {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+
+
+.about-intro {
+  margin-bottom: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.about-info .info-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-hobbies {
+  margin-bottom: 30px;
+}
+.see-projects-btn {
+  display: inline-block;
+  font-weight: 600;
+  color: #000000;
+  background-color: #fffafa;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  border-radius: 4px;
+}
+
+.see-projects-btn:hover {
+  background-color: #dddddd;
+  transform: translateY(-3px);
+}
+
+.see-projects-btn:active {
+  transform: translateY(-1px);
+}
+
+
+.arrow {
+  font-weight: bold;
+  
+  font-size: 1.2em;
+  
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 60%;
+  }
+
+  .about-text {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}

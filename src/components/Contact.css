@@ -1,0 +1,102 @@
+.Contact {
+  padding: 80px 0;
+  background-color: #000;
+  text-align: center;
+}
+
+.Contact h1 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  color: #fff;
+}
+
+.Contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Contact-info {
+  width: 30%;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.info-box svg {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.info-box p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.Contact-form {
+  width: 60%;
+}
+
+.Contact-field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.Contact-field label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.Contact-field input,
+.Contact-field textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.Contact-field textarea {
+  height: 150px;
+}
+
+.Contact-submit {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Contact-submit:hover {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .Contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Contact-info,
+  .Contact-form {
+    width: 100%;
+  }
+
+  .Contact-info {
+    margin-bottom: 40px;
+  }
+}
