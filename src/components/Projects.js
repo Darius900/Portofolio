@@ -84,32 +84,32 @@ const Projects = () => {
       title: 'Muntex E-commerce Platform [Fullstack]',
       description: 'A full-stack e-commerce platform where users can register, login, add products to cart, place orders, pay with Stripe or cash on delivery, request refunds, and change passwords. The admin dashboard allows for managing products, stocks, orders, refund requests, employees, and providers.',
       technologies: ['React', 'SQLite', 'Express', 'HTML','CSS'],
-      link: 'https://darius939.github.io/MUNTEX/',
-      code: 'https://github.com/Darius939/MUNTEX/tree/master',
+      link: 'https://darius900.github.io/MUNTEX/',
+      code: 'https://github.com/Darius900/MUNTEX/tree/master',
       image: aaaImage
     },
     {
       title: 'Table Tennis Shop [Frontend]',
       description: 'A frontend implementation for a table tennis shop, featuring a main page, header carousel, products page, and product categories.',
       technologies: ['React', 'HTML', 'CSS'],
-      link: 'https://darius939.github.io/TT/',
-      code: 'https://github.com/Darius939/TT/tree/master',
+      link: 'https://darius900.github.io/TT/',
+      code: 'https://github.com/Darius900/TT/tree/master',
       image: TT
     },
     {
       title: 'Personal Portfolio',
       description: 'A personal portfolio website with a black and white theme, particles on the main page, cool scroll transitions, and a minimalist, clean design.',
       technologies: ['React', 'HTML', 'CSS'],
-      link: 'https://darius939.github.io/Portofolio/',
-      code: 'https://github.com/Darius939/Portofolio/tree/master',
+      link: 'https://darius900.github.io/Portofolio/',
+      code: 'https://github.com/Darius900/Portofolio/tree/master',
       image: portofolio
     },
     {
       title: 'Marketplace [Fullstack] (In Progress)',
       description: 'A full-stack marketplace where users can register as sellers or buyers. Sellers can create and customize shops, add products, and manage orders and statistics.',
       technologies: ['React', 'Express', 'MySQL', 'HTML', 'CSS'],
-      link: 'https://darius939.github.io/ROMARKETPLACE/',
-      code: 'https://github.com/Darius939/ROMARKETPLACE/tree/master',
+      link: 'https://darius900.github.io/ROMARKETPLACE/',
+      code: 'https://github.com/Darius900/ROMARKETPLACE/tree/master',
       image: romarketplace
     }
   ];
