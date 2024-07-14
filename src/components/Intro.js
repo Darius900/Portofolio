@@ -37,7 +37,7 @@ const Intro = () => {
       <div className="content-wrapper">
         <div className="intro-text">
           <h1 className="section-title">Hello, World! 👋</h1>
-          <h2 className="intro-name">I'm Cojocaru Darius.</h2>
+          <h2 className="intro-name">I'm Darius.</h2>
           <p className="intro-role">A passionate Web Developer.</p>
           <p className="intro-bio">Creating awesome web experiences for all.</p>
           <button className="btn intro-btn" onClick={scrollToAbout}>
