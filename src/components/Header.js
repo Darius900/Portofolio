@@ -3,7 +3,7 @@ import './Header.css';
 import { Link } from 'react-scroll';
 import { FaDownload } from 'react-icons/fa'; 
 import logo from './logo2.png';
-import resume from './resume.pdf';
+import resume from './resume1.pdf';
 
 const Header = () => {
   return (
